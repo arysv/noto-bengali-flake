@@ -7,7 +7,7 @@ Add this repository to your `flake.nix` inputs:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    bangla-fonts.url = "github:sorexw/noto-bengali-flake"; 
+    bangla-fonts.url = "github:arysv/noto-bengali-flake";
   };
 
   outputs = { self, nixpkgs, bangla-fonts, ... }: {
@@ -32,6 +32,6 @@ Add this repository to your `flake.nix` inputs:
 - Contribute this project and hit a PR.
 
 ## License
-- The **Nix** code in this repository is licensed under the [MIT License](https://raw.githubusercontent.com/sorexw/noto-bengali-flake/main/LICENSE)
+- The **Nix** code in this repository is licensed under the [MIT License](https://raw.githubusercontent.com/arysv/noto-bengali-flake/main/LICENSE)
 - The **Fonts** downloaded and installed by this flake are subject to their respective creators' licenses (e.g., the [SIL Open Font License (OFL)](https://raw.githubusercontent.com/notofonts/bengali/main/OFL.txt) for Noto Sans).
 
